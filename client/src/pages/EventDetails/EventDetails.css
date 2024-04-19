@@ -1,0 +1,145 @@
+.event-details-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.event-details-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-details-left img {
+  max-width: 90%;
+  max-height: 430px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.event-details-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  /* padding: 1rem; */
+}
+.event-description {
+  margin-bottom: 10px;
+}
+
+.event-features {
+  margin-bottom: 30px;
+}
+
+.event-details-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.event-details-right li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.event-details-right li svg {
+  margin-right: 0.5rem;
+}
+
+.event-details-right li .label {
+  font-size: 1.2rem;
+}
+
+.event-availabilities {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+
+.event-availabilities li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.feature-tick::before {
+  content: "✔";
+  color: green;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.feature-cross::before {
+  content: "✘";
+  color: red;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.registration-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.registration-buttons button {
+  height: 40px;
+  background-color: #2a9d8f;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.group-register-invisible {
+  visibility: hidden;
+}
+
+.location-icon {
+  font-size: 16px;
+}
+
+.register-invisible {
+  background-color: wheat !important;
+  cursor: default !important;
+  color: black !important;
+}
+.register-notvisible {
+  background-color: rgb(230, 79, 79) !important;
+  cursor: pointer !important;
+  color: white !important;
+}
+
+.group-register-form input {
+  width: 70%;
+  padding: 6px;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #050505;
+  border-radius: 5px;
+}
+
+.email-add {
+  width: 86%;
+}
+
+.email-add button {
+  float: right;
+}
+
+.grp-register-btn {
+  color: #ffffff !important;
+  padding: 6px 8px !important;
+  display: inline !important;
+  border: none !important;
+  background-color: #007bff !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}

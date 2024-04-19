@@ -1,0 +1,131 @@
+.host-event-main {
+  color: rgb(181, 181, 181) !important;
+  background-color: rgb(15, 17, 16);
+}
+
+/* 182b28 */
+.host-event-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+.eventHost-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eventHost-form label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.eventHost-form input[type="text"],
+.eventHost-form input[type="number"],
+.eventHost-form input[type="date"],
+.eventHost-form select,
+.eventHost-form textarea {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #434343;
+  color: rgb(200, 200, 200);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.eventHost-form input[type="text"]:disabled {
+  background-color: white;
+}
+.eventHost-form input {
+  margin: 10px;
+}
+
+.eventHost-form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.eventHost-form button[type="submit"] {
+  background-color: #2a9d8f;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+.eventHost-form button[type="submit"]:hover {
+  background-color: #36cfc0;
+  /* margin: 10px; */
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.success {
+  color: green;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.host-main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: white;
+   */
+  background-color: rgb(30, 30, 30);
+
+  border: rgb(103, 103, 103) 1px solid;
+  margin-bottom: 30px;
+  padding: 40px 0px 40px 0px;
+  border-radius: 10px;
+}
+/*.host-left-box {
+  /* display: flex;
+  flex-direction: column; }*/
+/* .host-right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+} */
+
+.event-capacity {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+}
+
+.host-event-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.host-event-details textarea {
+  background-color: #434343;
+  margin-left: 10px;
+}
+
+.create-event-btn {
+  width: 100%;
+}
+
+.event-already-created {
+  width: 100%;
+  background-color: antiquewhite !important;
+  color: black !important;
+}
